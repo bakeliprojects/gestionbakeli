@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <table class="table table-bordered">
+      <tr>
+        <td>
+          {{$bakeliste->image}}
+        </td>
+        <td>
+          {{$bakeliste->nom}}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          {{$bakeliste->prenom}}
+        </td>
+        <td>
+          {{$bakeliste->disponiblite}}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          {{$bakeliste->cour}}
+        </td>
+         <td>
+          {{$bakeliste->education}}
+        </td>
+      </tr>
+      <tr>
+         <td>
+          {{$bakeliste->technologie}}
+        </td>
+         <td>
+          {{$bakeliste->language}}
+        </td>
+      </tr>
+      <tr>
+         <td>
+          {{$bakeliste->motivation}}
+        </td>
+      </tr>
+      </tr>
+    </table>
+  </body>
+</html>
